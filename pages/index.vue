@@ -5,8 +5,14 @@ definePageMeta({
 </script>
 
 <template>
-	<TheContainer class="flex-grow h-full w-full bg-white">
-		<h1>Header</h1>
-	</TheContainer>
-	
+    <div class="flex flex-col justify-between w-full gap-5">
+	    <AdvantagesSection/>
+	    <ServicesSection/>
+		<AboutSection/>
+		<TruckFleetSection/>
+		<DeliverySection/>
+		<FaqSection/>
+		<ContactSection/>
+    </div>
+
 </template>

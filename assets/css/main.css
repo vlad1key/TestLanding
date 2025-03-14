@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+    --animate-slide-up:  slideUp 300ms ease-out;
+    --animate-slide-down: slideDown 300ms ease-out;
+
+	@keyframes slideDown {
+	  from {
+	    height: 0;
+	  }
+	  to {
+	    height: var(--reka-accordion-content-height);
+	  }
+	}
+
+	@keyframes slideUp {
+	  from {
+	    height: var(--reka-accordion-content-height);
+	  }
+	  to {
+	    height: 0;
+	  }
+	}
+}
